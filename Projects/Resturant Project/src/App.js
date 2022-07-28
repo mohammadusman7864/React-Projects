@@ -1,9 +1,15 @@
 import "./App.css";
-import { Container } from "react-bootstrap";
+import NavBar from "./component/navBar/NavBar"
+
+
 
 function App() {
   return (
-   <p>jjjdddjvjmjk</p>
+   <>
+  
+   <NavBar/>
+   
+   </>
   );
 }
 
