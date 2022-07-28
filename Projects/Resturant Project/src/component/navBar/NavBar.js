@@ -1,5 +1,6 @@
 import React from 'react';
 import {Container, Nav, Navbar } from 'react-bootstrap';
+import {Link} from 'react-router-dom';
 import {MdLocalOffer} from 'react-icons/md';
 
 function NavBar() {
@@ -12,10 +13,18 @@ function NavBar() {
          &nbsp; &nbsp; Free Home Delivery on Order Above 500/- Rupees
          </h5>
           <Nav className="ms-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#About">About</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
+          <Link to="/" activeClassName>
+            <Nav.Link>Home</Nav.Link>
+            </Link>
+            <Link to="/about" activeClassName>
+            <Nav.Link>About</Nav.Link>
+            </Link>
+            <Link to="/contact" activeClassName>
+            <Nav.Link>Contact</Nav.Link>
+            </Link>
+            <Link to="/pricing" activeClassName>
+            <Nav.Link>Pricing</Nav.Link>
+            </Link>
           </Nav>
         </Container>
       </Navbar>
