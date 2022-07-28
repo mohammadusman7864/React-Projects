@@ -23,8 +23,9 @@ const About =() => {
           Ratione harum, sit et iste eaque commodi laborum quam quos perspiciatis rerum! Tenetur quas
           ad vero sed architecto excepturi sapiente perspiciatis, illo molestias a quam magnam.</p>
         <h1>Our Specality</h1>
-        <Row>
-          <Col md={6}>
+        
+        {/* <Row>
+          <Col >
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente incidunt porro accusantium
               excepturi quo consequuntur doloremque iste, nam ut necessitatibus unde repellendus iusto commodi nisi
               ratione provident quae, dolore eius veniam quasi fugit tempora neque quidem? Rem iusto reprehenderit
@@ -36,10 +37,10 @@ const About =() => {
 
         <Row>
           <h1>Our Chief</h1>
-          <col md={3}><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum fuga autem,
+          <col ><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum fuga autem,
             accusamus recusandae pariatur, reiciendis nisi, fugiat maxime facilis tempora explicabo veritatis consectetur eveniet velit?</p></col>
          
-        </Row>
+        </Row> */}
 
       </Container>
     </>
