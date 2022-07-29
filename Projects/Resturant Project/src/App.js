@@ -12,16 +12,16 @@ import {
 
 function App() {
   return (
-   <>
-  <Router>
-   <NavBar/>
-   <Switch>
+    <>
+      <Router>
+        <NavBar />
+        <Switch>
           <Route path="/about" >
             <About />
           </Route>
-          </Switch>
-   </Router>
-   </>
+        </Switch>
+      </Router>
+    </>
   );
 }
 
