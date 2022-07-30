@@ -3,7 +3,7 @@ import { Container, Nav, Navbar } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 import { MdLocalOffer } from 'react-icons/md';
 
-function NavBar() {
+function TopBar() {
   return (
     <>
       <Navbar bg="dark" variant="dark">
@@ -32,4 +32,4 @@ function NavBar() {
   );
 }
 
-export default NavBar;
+export default TopBar;

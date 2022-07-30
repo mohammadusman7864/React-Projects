@@ -1,5 +1,5 @@
 import "./App.css";
-import NavBar from "./component/navBar/NavBar";
+import TopBar from "./component/topBar/TopBar";
 import About from "./staticPages/About";
 import Contact from "./staticPages/Contact";
 import {
@@ -16,7 +16,7 @@ function App() {
   return (
     <>
       <Router>
-        <NavBar />
+        <TopBar />
         <Switch>
           <Route path="/about" >
             <About />
