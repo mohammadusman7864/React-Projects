@@ -1,29 +1,38 @@
 import React from 'react'
 import { Container, Row, Col, Table } from 'react-bootstrap'
-import usman from '../assents/images/usman.jfif' 
+import { AiFillContacts } from 'react-icons/ai'
+import { BiPhoneCall } from "react-icons/bi"
+import { AiOutlineMail } from "react-icons/ai"
+import usman from '../assents/images/usman.jfif'
+import '../staticPages/Contact.css'
 
 const Contact = () => {
   return (
     <>
-    <Container style={{marginTop:"50px"}}>
-        <Row>
-            <Col md={6}>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore ipsum sit illum 
-                cumque possimus magnam veritatis molestias temporibus nisi animi a sed aut pariatur 
-                minima corrupti commodi distinctio beatae dignissimos praesentium explicabo, ut ducimus 
-                iste dolore non? Libero excepturi similique ipsum ea numquam rerum itaque eveniet beatae 
-                quidem quas, tempore unde esse minima dicta fuga dolores reprehenderit officia fugit voluptatem 
-                quasi aperiam ratione? Quam similique, corporis neque natus hic earum. Nostrum dolorem totam 
-                voluptates quos mollitia vitae placeat, tempora nihil repellat ex assumenda amet numquam modi
-                 explicabo distinctio unde corrupti repellendus ea suscipit perferendis enim? Quos omnis tenetur
-                  pariatur dolorum.</p>
-            </Col>
-            <Col md={6}>
-               <img src={usman} alt="usman" className="A"/>
-            </Col>
+      <Container fluid style={{ marginTop: "50px" }}>
+        <h1>PIZZAY DI HUNTI</h1>
+        <Row style={{ backgroundColor: '#80ced6' }}>
+          <h1>CONTACT:</h1>
+          <Col md={3}>
+            <AiFillContacts style={{ height: '45%', width: '50%' }} />
+            <h3>Muhammad Usman</h3>
+
+          </Col>
+          <Col md={3} >
+            <BiPhoneCall style={{ height: '45%', width: '50%' }} />
+            <h2>Cell:+923067052683</h2>
+
+          </Col>
+          <Col md={3} >
+            <AiOutlineMail style={{ height: '45%', width: '50%' }} />
+            <h2>email:</h2><h3>mohammadusman7864@gmail.com</h3>
+          </Col>
+          <Col md={3} >
+            <img src={usman} alt="usman" className="A" />
+          </Col>
         </Row>
 
-    </Container>
+      </Container>
     </>
   )
 }
