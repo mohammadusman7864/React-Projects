@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import Terms from "./staticPages/Terms";
 import NavBar from "./component/navBar/NavBar";
+import HomeScreen from "./screens/homeScreen/HomeScreen";
 
 
 
@@ -20,6 +21,7 @@ function App() {
         <TopBar />
         <NavBar />
         <Switch>
+       
           <Route path="/about" >
             <About />
           </Route>
@@ -28,6 +30,9 @@ function App() {
           </Route>
           <Route path="/terms and conditions" >
             <Terms />
+          </Route>
+          <Route path="/" >
+            <HomeScreen />
           </Route>
         </Switch>
       </Router>
