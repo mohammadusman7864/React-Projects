@@ -1,11 +1,11 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import farmhouse1 from "../assents/images/farmhouse1.jpg"
-import img4  from '../assents/images/img4.jpg'
-import img2  from '../assents/images/img2.jpg'
-import img3  from '../assents/images/img3.jpg'
-import img5  from '../assents/images/img5.jpg'
-import img6  from '../assents/images/img6.jpg'
+import img4 from '../assents/images/img4.jpg'
+import img2 from '../assents/images/img2.jpg'
+import img3 from '../assents/images/img3.jpg'
+import img5 from '../assents/images/img5.jpg'
+import img6 from '../assents/images/img6.jpg'
 
 const About = () => {
   return (
@@ -42,13 +42,13 @@ const About = () => {
             <img src={farmhouse1} alt="pizza" />
           </Col>
         </Row>
-        <Row style={{marginTop:'12px'}}>
+        <Row style={{ marginTop: '12px' }}>
           <h1>Our Chief</h1>
           <Col md={6}>
-          <img src={img4} alt="pizza"  style={{height:'50%', width:'53%'}}/>
+            <img src={img4} alt="pizza" style={{ height: '50%', width: '53%' }} />
           </Col>
           <Col md={6}>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis, est facere ullam itaque id vitae
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis, est facere ullam itaque id vitae
               quaerat doloremque quam impedit dolorum. Vero nesciunt eligendi cum, pariatur dolorum veniam omnis
               tenetur at? Libero at ab deleniti dignissimos a architecto fugiat, eligendi dolore, maxime aut alias
               id quae possimus voluptates! Ad eos eius assumenda id saepe? Reprehenderit, quibusdam illum officiis
@@ -58,18 +58,18 @@ const About = () => {
           </Col>
         </Row>
         <Row>
-          
+
           <Col md={3}>
-          <img src={img2} alt="pizza"  style={{height:'100%', width:'100%'}}/>
+            <img src={img2} alt="pizza" style={{ height: '100%', width: '100%' }} />
           </Col>
           <Col md={3}>
-          <img src={img3} alt="pizza"  style={{height:'100%', width:'100%'}}/>
+            <img src={img3} alt="pizza" style={{ height: '100%', width: '100%' }} />
           </Col>
           <Col md={3}>
-          <img src={img5} alt="pizza"  style={{height:'100%', width:'100%'}}/>
+            <img src={img5} alt="pizza" style={{ height: '100%', width: '100%' }} />
           </Col>
           <Col md={3}>
-          <img src={img6} alt="pizza"  style={{height:'100%', width:'100%'}}/>
+            <img src={img6} alt="pizza" style={{ height: '100%', width: '100%' }} />
           </Col>
         </Row>
       </Container>

@@ -5,9 +5,11 @@
     height: 70%;
 }
 
-h1{
-    
+h1 {
+    font-family: 'Times New Roman';
+    font-size: 100px;
+    font-weight: bold;
+    font-style: italic;
+    color: darkorange;
     text-align: center;
-     color: blue;
 }
-

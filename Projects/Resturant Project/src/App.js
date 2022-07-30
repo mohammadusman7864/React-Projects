@@ -7,6 +7,7 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import Terms from "./staticPages/Terms";
 
 
 
@@ -22,6 +23,9 @@ function App() {
           </Route>
           <Route path="/contact" >
             <Contact />
+          </Route>
+          <Route path="/terms and conditions" >
+            <Terms />
           </Route>
         </Switch>
       </Router>

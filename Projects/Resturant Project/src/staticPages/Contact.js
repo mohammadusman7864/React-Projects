@@ -1,37 +1,41 @@
 import React from 'react'
-import { Container, Row, Col, Table } from 'react-bootstrap'
-import { AiFillContacts } from 'react-icons/ai'
-import { BiPhoneCall } from "react-icons/bi"
-import { AiOutlineMail } from "react-icons/ai"
-import usman from '../assents/images/usman.jfif'
+import { Container, Row, Col, } from 'react-bootstrap'
+import chef from '../assents/images/chef.jpg'
+import chef2 from '../assents/images/chef2.jpg'
+import Footer from '../component/footer/Footer'
 import '../staticPages/Contact.css'
 
 const Contact = () => {
   return (
     <>
       <Container fluid style={{ marginTop: "50px" }}>
-        <h1>PIZZAY DI HUNTI</h1>
-        <Row style={{ backgroundColor: '#80ced6' }}>
-          <h1>CONTACT:</h1>
-          <Col md={3}>
-            <AiFillContacts style={{ height: '45%', width: '50%' }} />
-            <h3>Muhammad Usman</h3>
+        <h1>
+          ANSARI PIZZA POINT
+        </h1>
 
+        <Row style={{ marginTop: "50px" }}>
+          <Col md={8}>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima labore repellat consectetur
+              porro debitis dignissimos <br /> quam assumenda, repudiandae eos vero libero voluptatum error dolore magnam
+              explicabo quae sequi officia alias?Lorem <br /> ipsum dolor sit, amet consectetur adipisicing elit. Unde repudiandae
+              dolorum dolore perspiciatis, consectetur <br /> saepe sed deserunt culpa ullam harum.</p>
           </Col>
-          <Col md={3} >
-            <BiPhoneCall style={{ height: '45%', width: '50%' }} />
-            <h2>Cell:+923067052683</h2>
-
-          </Col>
-          <Col md={3} >
-            <AiOutlineMail style={{ height: '45%', width: '50%' }} />
-            <h2>email:</h2><h3>mohammadusman7864@gmail.com</h3>
-          </Col>
-          <Col md={3} >
-            <img src={usman} alt="usman" className="A" />
+          <Col md={4}>
+            <img src={chef} alt="chef" className='A' />
           </Col>
         </Row>
-
+        <Row style={{ marginTop: "50px" }}>
+          <Col md={4}>
+            <img src={chef2} alt="chef" className='A' />
+          </Col>
+          <Col md={8}>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima labore repellat consectetur
+              porro debitis dignissimos <br /> quam assumenda, repudiandae eos vero libero voluptatum error dolore magnam
+              explicabo quae sequi officia alias?Lorem <br /> ipsum dolor sit, amet consectetur adipisicing elit. Unde repudiandae
+              dolorum dolore perspiciatis, consectetur <br /> saepe sed deserunt culpa ullam harum.</p>
+          </Col>
+        </Row>
+        <Footer />
       </Container>
     </>
   )
