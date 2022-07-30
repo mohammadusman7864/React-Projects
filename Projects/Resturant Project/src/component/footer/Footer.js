@@ -12,22 +12,22 @@ const Footer = () => {
 
         <Row style={{ backgroundColor: '#80ced6' }}>
           <h1>CONTACT:</h1>
-          <Col md={3}>
-            <AiFillContacts style={{ height: '45%', width: '50%' }} />
+          <Col md={3} lg={3}>
+            <AiFillContacts size={70} style={{ marginLeft: '25%' }} />
             <h3>Muhammad Usman</h3>
 
           </Col>
-          <Col md={3} >
-            <BiPhoneCall style={{ height: '45%', width: '50%' }} />
+          <Col md={3} lg={3} >
+            <BiPhoneCall size={70} style={{ marginLeft: '25%' }} />
             <h2>Cell:+923067052683</h2>
 
           </Col>
-          <Col md={3} >
-            <AiOutlineMail style={{ height: '45%', width: '50%' }} />
+          <Col md={3} lg={3} >
+            <AiOutlineMail size={70} style={{ marginLeft: '25%' }} />
             <h2>email:</h2><h3>mohammadusman7864@gmail.com</h3>
           </Col>
-          <Col md={3} >
-            <img src={usman} alt="usman" className="A" />
+          <Col md={3} lg={3} >
+            <img src={usman} alt="usman" style={{ marginLeft: '25%' }} className="A" />
           </Col>
         </Row>
 

@@ -8,6 +8,7 @@ import {
   Route
 } from "react-router-dom";
 import Terms from "./staticPages/Terms";
+import NavBar from "./component/navBar/NavBar";
 
 
 
@@ -17,6 +18,7 @@ function App() {
     <>
       <Router>
         <TopBar />
+        <NavBar />
         <Switch>
           <Route path="/about" >
             <About />
