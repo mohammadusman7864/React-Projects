@@ -1,0 +1,11 @@
+.cart {
+    color: #ff2f1d;
+    background-color: #fff;
+    border: none;
+    border: 1px solid #db8b4a;
+    font-weight: lighter;
+    border-radius: 20px;
+    font-family: 'Times New Roman';
+    transition: 0.5s;
+}
+

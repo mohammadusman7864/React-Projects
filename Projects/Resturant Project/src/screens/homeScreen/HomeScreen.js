@@ -6,10 +6,10 @@ import pizzas from '../../pizzas-data'
 const HomeScreen = () => {
   return (
     <>
-    <Container>
+    <Container >
         <Row>
             {pizzas.map(pizza => (
-                <Col  md={4}>
+                <Col md={6} lg={4}>
              <SpecialPizza x={pizza} />
              </Col>   
             ) )}
