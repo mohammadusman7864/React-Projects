@@ -1,8 +1,16 @@
 const express = require("express");
 require("color");
+const  dotenv = require('dotenv')
+const connectDB = require('./config/Config')
 const morgan = require("morgan")
  
 const app = express();
+
+// dotenv config
+dotenv.config();
+
+// mongoDB Connction
+connectDB();
 
 // middleware
 app.use(express.json());
@@ -12,4 +20,9 @@ app.use(morgan('dev'));
 app.get("/",(req,res)=> {
     res.send("hello usman")
 });
-app.listen(4500);
+  
+
+const port = process.env.PORT || 4500
+app.listen(port,()  => {
+
+});
