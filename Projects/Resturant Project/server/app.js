@@ -10,7 +10,7 @@ const app = express();
 dotenv.config();
 
 // mongoDB Connction
-connectDB();
+connectDB("mongodb://localhost:27017/pizza-shop");
 
 // middleware
 app.use(express.json());

@@ -11,8 +11,8 @@ const connectDB= async() => {
             useCreateIndex: true
           });
           console.log(
-            'Mongo Database Connected! ${.con.connection.host}' .bgCyan.white
-          );
+            'Mongo Database Connected! ${.con.connection.host}' .bgCyan.white );
+         
       } catch (error) {
         console.log('error: ${error.message}' .bgRed.white  );
       }
